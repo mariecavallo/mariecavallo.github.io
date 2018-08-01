@@ -1,3 +1,7 @@
+body{
+  position: relative;
+}
+
 .navbar-trans {
     background: transparent; }
 
@@ -22,6 +26,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .formationText {
@@ -37,18 +42,15 @@
 #photoMoi {
     background: url("img/moi.jpg") center center no-repeat;
     background-size: cover;
-    border-width: 80px;
-    border-style: solid;
-    border-color: white;
     height: 93vh;
-    width: 100%;
+    border: 10vh white solid;
 }
 
 #profilText {
     display: flex;
 
     flex-direction: column;
-    border-width: 80px;
+    border-width: 120px;
     border-style: solid;
     border-color: white;
 }
@@ -221,20 +223,14 @@
     .timeline ul li:nth-child(even) div::before {
       left: -15px;
       border-width: 8px 16px 8px 0;
-      border-color: transparent white transparent transparent;
+      border-color: transparent transparent transparent transparent;
     }
 }
 
 /* SKILLS */
 
 .competence {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    margin: auto;
-    padding : 100px;
-    background: rgba(255, 255, 255, 0.8)
+       padding: 5vh;
 }
 
 .backgroundCompetence {
@@ -244,6 +240,7 @@
     height: 93vh;
     width: 100%;
 }
+
 
   
 
