@@ -6,10 +6,14 @@ body{
     background: transparent; }
 
 .background {
-    background: url("img/background2.jpg") center center no-repeat;
+    background: url("img/test2.jpg") center center no-repeat;
     background-size: cover;
     height: 93vh;
     width: 100%;
+    
+}
+.bgShadow{
+  text-shadow: 0 0 2px #FFF;
 }
 
 .backgroundFormation {
@@ -21,12 +25,12 @@ body{
 }
 
 .homepageText {
-    height: 60vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+    padding-top: 8vh;     
 }
 
 .formationText {
@@ -119,11 +123,11 @@ body{
   }
 
   .pro div {
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: rgb(255, 255, 255,0.8);
   }
 
   .formation div {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 60, 143, 0.5);
     color : white;
   }
 
@@ -231,16 +235,38 @@ body{
 
 .competence {
        padding: 5vh;
+       width: 100%;
 }
 
 .backgroundCompetence {
     display: flex;
-    background: url("img/competence.jpg") center center no-repeat;
+    
     background-size: cover;
     height: 93vh;
     width: 100%;
 }
 
+.iconTimelineInf {
+  font-size: 6em;
+  color: rgb(251, 192, 45);
+  margin-bottom: 3vh;
+}
 
+.iconTimelineLang {
+  font-size: 6em;
+  color: rgb(25, 118, 210) ;
+  margin-bottom: 3vh;
+}
+
+
+.containerCompetence {
+  margin: 3vh;
+}
+
+
+
+ul{
+  margin-bottom: 0;
+}
   
 
