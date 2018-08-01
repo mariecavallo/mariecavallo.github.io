@@ -52,7 +52,6 @@ body{
 
 #profilText {
     display: flex;
-
     flex-direction: column;
     border-width: 120px;
     border-style: solid;
@@ -247,20 +246,21 @@ body{
 }
 
 .iconTimelineInf {
-  font-size: 6em;
+  font-size: 5em;
   color: rgb(251, 192, 45);
   margin-bottom: 3vh;
 }
 
 .iconTimelineLang {
-  font-size: 6em;
+  font-size: 5em;
   color: rgb(25, 118, 210) ;
   margin-bottom: 3vh;
 }
 
-
-.containerCompetence {
-  margin: 3vh;
+.iconTimelinePerso {
+  font-size: 6em;
+  color: rgb(57, 121, 107);
+  margin-bottom: 3vh;
 }
 
 ul{
